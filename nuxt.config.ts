@@ -19,12 +19,8 @@ export default defineNuxtConfig({
     documentDriven: true
   },
 
-  css: ['styles/reset.scss'],
   tailwindcss: {
     exposeConfig: true,
-    injectPosition: {
-      after: 'styles/reset.scss'
-    },
     configPath: 'tailwind.config.ts'
   }
 })
