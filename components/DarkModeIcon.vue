@@ -1,5 +1,5 @@
 <template>
-  <button class="text-primary dark:text-secondary" @click="toggleColorMode">
+  <button @click="toggleColorMode">
     <icon name="mdi:theme-light-dark" size="2rem" />
   </button>
 </template>

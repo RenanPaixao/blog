@@ -6,21 +6,11 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       colors: {
-        primary: '#340D99',
-        secondary: '#D5C7FA',
-        accent: '#E3C34F'
+        'primary-dark': '#130539',
+        'soft-dark': '#F1ECFD',
+        primary: '#D5C7FA',
+        'text-color': '#374151'
       }
     }
-  },
-  variants: {
-    backgroundColor: [
-      'dark',
-      'dark-hover',
-      'dark-group-hover',
-      'dark-even',
-      'dark-odd'
-    ],
-    borderColor: ['dark', 'dark-focus', 'dark-focus-within'],
-    textColor: ['dark', 'dark-hover', 'dark-active']
   }
 }
