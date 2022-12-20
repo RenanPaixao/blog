@@ -1,5 +1,5 @@
 <template>
-  <main class="prose prose-slate dark:prose-invert">
+  <main class="prose prose-gray dark:prose-invert">
     <ContentDoc>
       <template #not-found>
         <DocumentDrivenNotFound />

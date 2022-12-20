@@ -1,9 +1,10 @@
 import type { Config } from 'tailwindcss'
+import defaultTheme from 'tailwindcss/defaultTheme'
 import tailwindTypography from '@tailwindcss/typography'
 
 export default <Partial<Config>>{
   darkMode: 'class',
-  content: ['./index.html', './components/**/*.{vue,js,ts}'],
+  content: ['./components/**/*.{vue,js,ts}', './app.vue'],
   theme: {
     extend: {
       colors: {
@@ -13,7 +14,7 @@ export default <Partial<Config>>{
         'text-color': '#374151'
       },
       fontFamily: {
-        sans: ['Inter']
+        sans: ['Inter', ...defaultTheme.fontFamily.sans]
       }
     }
   },
