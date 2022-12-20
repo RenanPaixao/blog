@@ -2,10 +2,7 @@
   <nav
     class="bg-primary dark:bg-primary-dark"
   >
-    <div
-      class="flex justify-between w-100 py-2 pr-4 pl-6
-    max-w-screen-2xl mx-auto"
-    >
+    <div class="flex justify-between w-100 py-2 pr-4 text-lg pl-6 max-w-screen-2xl mx-auto">
       <NuxtLink to="/">
         <img src="../assets/images/logo-w.png" class="hover:backdrop-brightness-75 dark:hover:backdrop-brightness-200" alt="logo">
       </NuxtLink>
