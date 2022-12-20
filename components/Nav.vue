@@ -12,7 +12,9 @@
             class="nav-link flex align-middle justify-center"
             :to="path"
           >
-            <icon :name="icon" size="2rem" />
+            <span class="sm:hidden">
+              <icon :name="icon" size="2rem" />
+            </span>
             <span class="hidden sm:inline my-auto">{{ title }}</span>
           </NuxtLink>
         </li>
