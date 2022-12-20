@@ -1,6 +1,6 @@
 <template>
-  <main class="prose prose-gray dark:prose-invert">
-    <ContentDoc>
+  <main class="prose prose-gray dark:prose-invert mx-auto">
+    <ContentDoc tag="section">
       <template #not-found>
         <DocumentDrivenNotFound />
       </template>

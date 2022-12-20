@@ -1,8 +1,8 @@
 <template>
-  <main>
-    <h1 class="text-6xl">
+  <section>
+    <h1>
       Page not found!
     </h1>
     <button>Back</button>
-  </main>
+  </section>
 </template>
