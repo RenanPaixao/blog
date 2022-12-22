@@ -3,7 +3,7 @@ import { resolve } from 'path'
 
 export default defineNuxtConfig({
   alias: {
-    styles: resolve(__dirname, 'assets/styles')
+    '%': resolve(__dirname, 'components/content/')
   },
 
   modules: [

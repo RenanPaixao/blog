@@ -8,6 +8,7 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       colors: {
+        ...defaultTheme.colors,
         'primary-dark': '#130539',
         'soft-dark': '#F1ECFD',
         primary: '#D5C7FA',

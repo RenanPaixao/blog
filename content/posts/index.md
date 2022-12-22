@@ -1,1 +1,8 @@
-posts
+---
+title: Posts
+---
+
+# Posts
+<br>
+
+::PostList
