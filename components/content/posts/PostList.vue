@@ -11,7 +11,8 @@ import Post from '%/posts/Post.vue'
 const posts = ref([])
 
 onMounted(async() => {
-  posts.value = await queryContent('posts').find()
+  posts.value = await queryContent('posts')
+	  .where({ _id: { $ne: 'content:posts:index.md' } }).limit(10).find()
 })
 
 </script>

@@ -1,5 +1,6 @@
 ---
 title: Posts
+navigation: false
 ---
 
 # Posts
