@@ -1,5 +1,5 @@
 <template>
-  <main class="prose prose-gray dark:prose-invert mx-auto pt-10">
+  <main class="prose prose-gray prose-h1:pl-5 dark:prose-invert mx-auto pt-10">
     <ContentDoc tag="section">
       <template #not-found>
         <DocumentDrivenNotFound />
