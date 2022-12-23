@@ -1,6 +1,8 @@
 <template>
   <article
-    class="border border-2 rounded-lg mb-5 pb-2 hover:cursor-pointer"
+    class="
+    border border-2 bg-[#B7A2F6] dark:bg-[#19074B] rounded-lg mb-3 pb-2 hover:cursor-pointer
+    hover:scale-105 transform transition duration-200 ease-in-out"
   >
     <header class="px-3">
       <h2 class="mt-2 mb-3">
