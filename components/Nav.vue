@@ -9,7 +9,7 @@
       <ul class="w-100 flex justify-end items-center">
         <li v-for="[title, icon, path] in navLinks" :key="path" class="mx-2">
           <NuxtLink
-            class="nav-link flex align-middle justify-center"
+            class="text-text-color hover:text-black dark:text-primary dark:hover:text-soft-dark flex align-middle justify-center"
             :to="path"
           >
             <span class="sm:hidden">
@@ -19,7 +19,7 @@
           </NuxtLink>
         </li>
         <li class="mx-2">
-          <DarkModeIcon class="nav-link" />
+          <DarkModeIcon class="text-text-color hover:text-black dark:text-primary dark:hover:text-soft-dark" />
         </li>
       </ul>
     </div>
@@ -34,9 +34,3 @@ const navLinks = [
   ['Projects', 'mdi:briefcase-variant', '/projects']
 ]
 </script>
-
-<style lang="scss" scoped>
-.nav-link{
-	@apply text-text-color hover:text-black dark:text-primary dark:hover:text-soft-dark;
-}
-</style>
