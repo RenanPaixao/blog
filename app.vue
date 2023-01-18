@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary dark:bg-primary-dark min-h-screen">
+  <div v-cloak class="bg-primary dark:bg-primary-dark min-h-screen">
     <Nav />
     <NuxtPage />
   </div>
@@ -18,3 +18,7 @@ useHead({
   ]
 })
 </script>
+<style lang="scss">
+// Avoid flickering on page load
+[v-cloak] > * { display:none }
+</style>
