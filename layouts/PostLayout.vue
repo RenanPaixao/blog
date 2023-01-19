@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="pb-10">
     <slot />
     <div class="flex justify-end">
       <button
