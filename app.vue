@@ -6,8 +6,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useAsyncData } from '#app'
-import { useHead } from '#imports'
+import { useAsyncData, useHead } from '#imports'
 
 // This way of useHead use avoid flickering when get out of the blog and back again.
 useAsyncData(async() => {
