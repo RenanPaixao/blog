@@ -13,7 +13,7 @@
         {{ props.post.description || 'No description' }}
       </p>
       <small>
-        <time>7 min read</time>
+        <time>3 min read</time>
       </small>
     </header>
   </article>

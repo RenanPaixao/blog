@@ -1,7 +1,7 @@
 <template>
   <div v-cloak class="bg-primary dark:bg-primary-dark min-h-screen">
     <Nav />
-    <NuxtPage />
+    <NuxtPage class="max-sm:px-4" />
   </div>
 </template>
 
