@@ -13,7 +13,7 @@
         {{ props.post.description || 'No description' }}
       </p>
       <small>
-        <time>3 min read</time>
+        <time>{{ props.post.readTime }}</time>
       </small>
     </header>
   </article>
@@ -31,7 +31,8 @@ interface Post extends MarkdownParsedContent{
 	_id: string
 	_source: string
 	_file: string,
-	_extension: string
+	_extension: string,
+	readTime?: number
 }
 
 const props = defineProps<{
