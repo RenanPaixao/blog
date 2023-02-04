@@ -16,6 +16,6 @@ import { DocumentDrivenNotFound } from '#components'
 const route = useRoute()
 
 const currentLayout = computed(() => {
-  return route.path.includes('/posts/') ? 'post-layout' : ''
+  return route.path.match(/posts\/.+/) ? 'post-layout' : ''
 })
 </script>
