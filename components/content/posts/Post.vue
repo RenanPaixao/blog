@@ -24,14 +24,6 @@ import type { MarkdownParsedContent } from '@nuxt/content/dist/runtime/types'
 import { navigateTo } from '#app'
 
 interface Post extends MarkdownParsedContent{
-	_path: string
-	_draft: boolean
-	_partial: boolean
-	title: string
-	_id: string
-	_source: string
-	_file: string,
-	_extension: string,
 	readTime?: number
 }
 

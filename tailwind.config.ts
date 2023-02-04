@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss'
 import defaultTheme from 'tailwindcss/defaultTheme'
+import tailwindLineClamp from '@tailwindcss/line-clamp'
 import tailwindTypography from '@tailwindcss/typography'
 
 export default <Partial<Config>>{
@@ -19,5 +20,8 @@ export default <Partial<Config>>{
       }
     }
   },
-  plugins: [tailwindTypography]
+  plugins: [
+    tailwindTypography,
+    tailwindLineClamp
+  ]
 }
