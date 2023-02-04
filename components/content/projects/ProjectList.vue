@@ -1,5 +1,5 @@
 <template>
-  <section class="px-4 grid grid-cols-2 max-[500px]:grid-cols-1 gap-6">
+  <section class="px-4 grid grid-cols-2 max-[500px]:grid-cols-1 gap-4">
     <Project
       v-for="project in projects"
       :key="project.id"

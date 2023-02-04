@@ -1,7 +1,7 @@
 <template>
   <article
     class="
-    border border-2 bg-[#B7A2F6] dark:bg-[#19074B] rounded-lg mb-3 pb-2 hover:cursor-pointer
+    border border-2 bg-[#B7A2F6] dark:bg-[#19074B] rounded-lg mb-3 pb-2 pt-1 pl-2 hover:cursor-pointer
     hover:scale-105 transform transition duration-200 ease-in-out"
     @click="navigateToPost"
   >
@@ -9,11 +9,11 @@
       <h2 class="mt-2 mb-3">
         {{ props.post.title }}
       </h2>
-      <p class="mb-0">
+      <p class="mb-0 opacity-90 dark:opacity-95">
         {{ props.post.description || 'No description' }}
       </p>
       <small>
-        <time>{{ props.post.readTime }}</time>
+        <time class="opacity-90">{{ props.post.readTime }}</time>
       </small>
     </header>
   </article>
