@@ -25,4 +25,19 @@ useAsyncData(async() => {
 <style lang="scss">
 // Avoid flickering on page load
 [v-cloak] > * { display:none }
+
+// Remove underline from links inside headings added by typography plugin
+// and add a hash before the heading to indicate it's a anchor link
+h1, h2, h2, h3, h4, h5, h6{
+	a{
+		text-decoration-line: none !important;
+	}:after{
+		content: '#';
+		margin-left: 0.5rem;
+		visibility: hidden;
+	}:hover:after{
+		visibility: visible;
+		text-decoration-line: underline;
+	}
+}
 </style>
