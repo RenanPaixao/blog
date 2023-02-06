@@ -7,7 +7,7 @@
       bg-[#B7A2F6] dark:bg-[#19074B]
       prose-headings:m-0
       hover:scale-105 min-h-[91px]
-      border rounded hover:cursor-pointer
+      border border-2 rounded hover:cursor-pointer
 			transform transition duration-200 ease-in-out"
     >
       <icon :name="icon" size="3.4rem" class="opacity-90 mr-3 self-center shrink-0" />
