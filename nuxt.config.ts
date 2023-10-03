@@ -16,9 +16,13 @@ export default defineNuxtConfig({
     classSuffix: ''
   },
   content: {
-    documentDriven: true
+    documentDriven: true,
+    highlight: {
+      theme: {
+        default: 'github-dark'
+      }
+    }
   },
-
   tailwindcss: {
     exposeConfig: true,
     configPath: 'tailwind.config.ts'
