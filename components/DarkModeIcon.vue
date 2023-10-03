@@ -5,13 +5,10 @@
 </template>
 
 <script lang="ts" setup>
-import { useColorMode } from '#imports'
-
 const colorMode = useColorMode()
 
 function toggleColorMode():void {
-  const active = colorMode.value
-  colorMode.preference = active === 'dark' ? 'light' : 'dark'
+  colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
 }
 </script>
 
