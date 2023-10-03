@@ -13,7 +13,7 @@ module.exports = {
     'padded-blocks': ['warn', 'never'],
     'space-before-function-paren': ['warn', 'never'],
     'no-mixed-spaces-and-tabs': 'off',
-    quotes: ['error', 'single'],
+    quotes: ['error', 'single', { allowTemplateLiterals: true }],
     'vue/multi-word-component-names': 'off',
     'comma-dangle': ['error', 'never'],
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
