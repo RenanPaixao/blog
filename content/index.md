@@ -9,5 +9,4 @@ university and the job) and other things that I find interesting.
 You can find some of my projects [here](/projects) and some of my posts [here](/posts).
 
 Ways to find me: [GitHub](https://github.com/RenanPaixao){:target="_blank"}, 
-[Instagram](https://www.instagram.com/renanpaixao8/){:target="_blank"}, 
 [LinkedIn](https://www.linkedin.com/in/renanpaixao/){:target="_blank"}
