@@ -12,7 +12,7 @@ export default <Partial<Config>>{
         'primary-dark': '#130539',
         'soft-dark': '#F1ECFD',
         primary: '#C5B4F8',
-        'text-color': '#374151'
+        'text-color': '#3D3D4F'
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans]

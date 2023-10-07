@@ -6,8 +6,6 @@
 </template>
 
 <script lang="ts" setup>
-import { useAsyncData, useHead } from '#imports'
-
 // This way of useHead use avoid flickering when get out of the blog and back again.
 useAsyncData(async() => {
   await useHead({
@@ -39,5 +37,23 @@ h1, h2, h2, h3, h4, h5, h6{
 		visibility: visible;
 		text-decoration-line: underline;
 	}
+}
+
+ //Override typography color style
+.light{
+    p, li::marker{
+      color: #3D3D4F;
+    }
+    hr{
+    border-color: rgba(61, 61, 79, 0.6);
+  }
+}
+.dark{
+    li::marker{
+      color: #d1d5db;
+    }
+  hr{
+    border-color: rgba(209, 213, 219, 0.57);
+  }
 }
 </style>
