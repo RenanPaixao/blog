@@ -7,6 +7,7 @@
       :description="project.description"
       :link="project.link"
       :icon="project.icon"
+      :tags="project.tags"
     />
   </section>
 </template>
