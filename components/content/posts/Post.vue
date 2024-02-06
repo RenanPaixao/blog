@@ -1,7 +1,7 @@
 <template>
   <article
     class="
-    border border-2 bg-[#B7A2F6] dark:bg-[#19074B] rounded-lg mb-3 pb-2 pt-1 pl-2 hover:cursor-pointer
+      border-2 bg-[#DBCEF3] dark:bg-[#19074B] rounded-lg mb-3 pb-2 pt-1 pl-2 hover:cursor-pointer
     hover:scale-105 transform transition duration-200 ease-in-out"
     @click="navigateToPost"
   >

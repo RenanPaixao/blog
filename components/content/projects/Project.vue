@@ -4,10 +4,10 @@
     <div
       class="
       flex px-2 pt-2 pb-2
-      bg-[#B7A2F6] dark:bg-[#19074B]
+      bg-[#DBCEF3] dark:bg-[#19074B]
       prose-headings:m-0
       hover:scale-105 min-h-[91px]
-      border border-2 rounded hover:cursor-pointer
+      border-2 rounded hover:cursor-pointer
 			transform transition duration-200 ease-in-out"
     >
       <icon :name="icon" size="3.4rem" class="opacity-90 mr-3 self-center shrink-0" />

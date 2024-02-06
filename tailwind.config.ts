@@ -11,7 +11,7 @@ export default <Partial<Config>>{
         ...defaultTheme.colors,
         'primary-dark': '#130539',
         'soft-dark': '#F1ECFD',
-        primary: '#d0c4f5',
+        primary: '#f6f3fc',
         'text-color': '#3D3D4F'
       },
       fontFamily: {

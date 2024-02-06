@@ -4,7 +4,12 @@
   >
     <div class="flex justify-between w-100 py-2 pr-4 text-lg pl-6 max-w-screen-2xl mx-auto">
       <NuxtLink to="/">
-        <img src="../assets/images/logo-w.png" class="hover:backdrop-brightness-75 dark:hover:backdrop-brightness-200" alt="logo">
+        <img
+          src="../assets/images/logo-w.png"
+          class="invert-[150%] brightness-[70%] contrast-[100%] hover:backdrop-brightness-[25%]
+          dark:invert-[inherit] dark:brightness-[inherit] dark:contrast-[inherit] dark:hover:backdrop-brightness-200"
+          alt="logo"
+        >
       </NuxtLink>
       <ul class="w-100 flex justify-end items-center">
         <li v-for="[title, icon, path] in navLinks" :key="path" class="mx-2">
