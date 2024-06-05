@@ -12,7 +12,8 @@ const posts = ref([])
 
 onMounted(async() => {
   posts.value = await queryContent('posts')
-	  .where({ _id: { $ne: 'content:posts:index.md' } }).limit(10).find()
+	  .where({ _id: { $ne: 'content:posts:index.md' } }).limit(10).find() as any
+  posts.value = [...posts.value].reverse()
 })
 
 </script>
