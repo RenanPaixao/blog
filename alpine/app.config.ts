@@ -1,8 +1,8 @@
 // https://github.com/nuxt-themes/alpine/blob/main/nuxt.schema.ts
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
-    description: 'The minimalist blog theme',
+    title: 'Renan Paixão blog',
+    description: 'Blog to share any stuff that I think to be useful to someone.',
     image: {
       src: '/social-card-preview.png',
       alt: 'An image showcasing my project.',
@@ -12,9 +12,9 @@ export default defineAppConfig({
     header: {
       position: 'right', // possible value are : | 'left' | 'center' | 'right'
       logo: {
-        path: '/logo.svg', // path of the logo
-        pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'alpine' // alt of the logo
+        path: 'dark-logo.svg', // path of the logo
+        pathDark: 'light-logo.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
+        alt: 'renan paixão' // alt of the logo
       }
     },
     footer: {
