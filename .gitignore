@@ -10,4 +10,5 @@ dist
 sw.*
 .env
 .output
-.idea/
+
+.ide

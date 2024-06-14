@@ -31,11 +31,7 @@ export default defineAppConfig({
         label: 'LinkedIn',
         href: 'https://www.linkedin.com/in/renanpaixao'
       },
-      github: {
-        icon: 'uil:github',
-        label: 'GitHub',
-        href: 'https://www.github.com/renanpaixao'
-      }
+      github: 'renanpaixao'
     },
     form: {
       successMessage: 'Message sent. Thank you!'
