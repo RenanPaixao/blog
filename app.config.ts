@@ -4,7 +4,7 @@ export default defineAppConfig({
     title: 'Renan Paixão blog',
     description: 'Blog to share any stuff that I think to be useful to someone.',
     image: {
-      src: '/social-card-preview.png',
+      src: 'http://blog-renanpaixao.social-previews.top/fzviiz8t',
       alt: 'An image showcasing my project.',
       width: 400,
       height: 300
