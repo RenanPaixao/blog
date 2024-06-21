@@ -1,5 +1,5 @@
 <template>
-  <div v-if="title && _path" :data-content-id="id" class="wrapper">
+  <div :data-content-id="id" class="wrapper">
     <div class="cover">
       <h1>{{ props.title }}</h1>
     </div>
