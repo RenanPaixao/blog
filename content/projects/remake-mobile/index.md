@@ -1,5 +1,6 @@
 ---
 title: Remake - Mobile version
+cover: ./cover/projects/cynotify.png
 description: A mobile app to connect people with recyclers who can collect their recyclable materials.
 icon: mdi-leaf
 link: https://github.com/RenanPaixao/Remake
