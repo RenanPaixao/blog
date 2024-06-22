@@ -1,42 +1,57 @@
-# Content v2 Minimal Starter
+# Alpine Starter
 
-Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
+Starter template for [Alpine](https://alpine.nuxt.space).
+
+## Clone
+
+Clone the repository (using `nuxi`):
+
+```bash
+npx nuxi init -t themes/alpine
+```
 
 ## Setup
 
-Make sure to install the dependencies:
+Install dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+pnpm install
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
+## Development
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
-## Production
+## Edge Side Rendering
 
-Build the application for production:
+Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
+
+Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
 
 ```bash
-npm run build
+pnpm build
 ```
 
-Locally preview production build:
+## Static Generation
+
+Use the `generate` command to build your application.
+
+The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
 
 ```bash
-npm run preview
+pnpm generate
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+## Preview build
+
+You might want to preview the result of your build locally, to do so, run the following command:
+
+```bash
+pnpm preview
+```
+
+---
+
+For a detailed explanation of how things work, check out [Alpine](https://alpine.nuxt.space).
