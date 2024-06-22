@@ -22,14 +22,19 @@ import type { Project } from '~/components/content/ProjectItem.vue'
 
 
 function groupByYear(list: Project[]) {
-  return list.reduce((acc, project) => {
+  const projectsByYear = list.reduce((acc, project) => {
     const year = new Date(project.date).getFullYear()
     if (!acc[year]) {
       acc[year] = []
     }
     acc[year].push(project)
     return acc
-  }, {} as Record<number, Project[]>)
+  }, {} as Record<string, Project[]>)
+  
+  // Sort the projects by year in ascending order
+  return Object.entries(projectsByYear)
+    .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
+    .map(([, projects]) => projects)
 }
 </script>
 
