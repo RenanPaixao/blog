@@ -1,6 +1,9 @@
 export default defineNuxtConfig({
   nitro: {
-    static: true
+    static: true,
+    prerender: {
+      routes: ['/']
+    }
   },
   // https://github.com/nuxt-themes/alpine
   extends: '@nuxt-themes/alpine',
