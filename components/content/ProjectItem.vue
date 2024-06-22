@@ -1,7 +1,10 @@
 <template>
   <div :data-content-id="id" class="wrapper">
-    <div class="cover">
+    <div class="title">
       <h1>{{ props.title }}</h1>
+      <div class="icons">
+        <Icon v-for="icon in props.icons" :key="icon" :name="icon" size="30" />
+      </div>
     </div>
     
     <div class="footer">
@@ -14,19 +17,6 @@
         Read more
       </NuxtLink>
     </div>
-    
-    <div v-if="props.badges">
-      <span
-        v-for="(badge, index) in props.badges"
-        :key="index"
-        :style="{
-          backgroundColor: badge?.bg || 'rgba(0, 0, 0, 0.3)',
-          color: badge?.color || 'white'
-        }"
-      >
-        {{ typeof badge === 'string' ? badge : badge.content }}
-      </span>
-    </div>
   </div>
 </template>
 
@@ -38,7 +28,7 @@ export type Project = {
   title: string
   date: string
   description: string
-  badges?: { bg: string, text: string, content: string, color: string }[]
+  icons: string[]
 }
 
 const props = defineProps<Project>()
@@ -58,6 +48,15 @@ const id = computed(() => {
 </script>
 
 <style scoped lang="scss">
+.icons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.title {
+  display: flex;
+  gap: 1rem;
+}
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
