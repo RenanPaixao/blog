@@ -14,6 +14,7 @@
     "@nuxt/devtools": "^1.0.8",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxt/ui-templates": "npm:@nuxt/ui-templates-edge@latest",
+    "@nuxthq/studio": "^2.0.1",
     "@nuxtjs/plausible": "^0.2.4",
     "@types/node": "^20.11.24",
     "eslint": "^8.57.0",
