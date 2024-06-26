@@ -2,7 +2,7 @@
 
 A blog to share any knowledge that I think would be useful for someone. 
 
-Feel free to contact me case you want to discuss about anything here. :smile:	
+Feel free to contact me case you want to discuss anything here. :smile:	
 
 
 ---
