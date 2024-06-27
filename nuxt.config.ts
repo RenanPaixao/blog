@@ -5,6 +5,16 @@ export default defineNuxtConfig({
       routes: ['/']
     }
   },
+  app: {
+    head: {
+      link: [{
+        rel: 'icon',
+        // @ts-expect-error
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      }]
+    }
+  },
   // https://github.com/nuxt-themes/alpine
   extends: '@nuxt-themes/alpine',
 
