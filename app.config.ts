@@ -4,17 +4,17 @@ export default defineAppConfig({
     title: 'Renan Paixão blog',
     description: 'Blog to share any stuff that I think to be useful to someone.',
     image: {
-      src: 'http://blog-renanpaixao.social-previews.top/fzviiz8t',
-      alt: 'An image showcasing my project.',
+      src: '/social-card-preview.png',
+      alt: 'An image showcasing my blog.',
       width: 400,
       height: 300
     },
     header: {
       position: 'right', // possible value are : | 'left' | 'center' | 'right'
       logo: {
-        path: 'dark-logo.svg', // path of the logo
-        pathDark: 'light-logo.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'renan paixão' // alt of the logo
+        path: '/dark-logo.svg', // path of the logo
+        pathDark: '/light-logo.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
+        alt: 'a R and P letters merged, forming a logo to the name Renan Paixão, the blog owner' // alt of the logo
       }
     },
     footer: {
@@ -32,9 +32,6 @@ export default defineAppConfig({
         href: 'https://www.linkedin.com/in/renanpaixao'
       },
       github: 'renanpaixao'
-    },
-    form: {
-      successMessage: 'Message sent. Thank you!'
     }
   }
 })
