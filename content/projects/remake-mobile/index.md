@@ -1,6 +1,6 @@
 ---
 title: Remake - Mobile version
-cover: ./cover/projects/cynotify.png
+cover: /cover/projects/cynotify.png
 description: A mobile app to connect people with recyclers who can collect their recyclable materials.
 link: https://github.com/RenanPaixao/Remake
 tags: [react native, chat-gpt, i18n, expo, typescript, supabase, react-query, formik, yup]
